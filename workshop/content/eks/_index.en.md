@@ -6,7 +6,7 @@ chapter = true
 +++
 
 
-### Amazon EKS Hands-on Labs - EKS Operation, Observability and Security
+### Amazon EKS Hands-on Labs - Using Spot Instances and Fargate with Amazon EKS 
 
 ![hash-enter](/images/product-page-diagram-AmazonEKS-v2.dd41321fd3aa0915b93396c13e739351d2160ba8.png) 
 
