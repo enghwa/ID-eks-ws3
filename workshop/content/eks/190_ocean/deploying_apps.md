@@ -16,20 +16,21 @@ With Ocean, you can define custom "launch specifications" which allow you to con
 Let's see how this works:
 
 1. Navigate to your Ocean Cluster within the Spot.io Console, then click on the Actions menu on the top right and select "Launch Specifications".
-<img src="/images/ocean/actions_launch_specs.png" alt="Actions - Launch Specs" />
+![Actions - Launch Specs](/images/ocean/actions_launch_specs.png)
 
 2. Here you can see the "Default Launch Specification" which represents the initial configuration that the Ocean cluster was created with. To add a new configuration, click the "Add Launch Specification" button on the top right.
-<img src="/images/ocean/launch_specs.png" alt="Launch Specifications" width="700"/>
+![Launch Specifications](/images/ocean/launch_specs.png)
 
 3. Configure the new Launch Specification as follows:
    - Set Name to `Dev Environment`.
    - Under Node Labels, set Key to `env`, Value to `dev` and click "Add".
-<img src="/images/ocean/launch_spec_1.png" alt="Launch Specification 1" width="700"/>
+
+![Launch Specification 1](/images/ocean/launch_spec_1.png)
 
 4. Add another Launch Specification by clicking the "Add Launch Specification" button again, and configure it as follows:
    - Set Name to `Test Environment`.
    - Under Node Labels, set Key to `env`, Value to `test` and click "Add".
-<img src="/images/ocean/launch_spec_2.png" alt="Launch Specification 2" width="700"/>
+![Launch Specification 2](/images/ocean/launch_spec_2.png)
 
 5. Once you're finished (make sure you have 3 Launch Specifications), click "Update" at the bottom right of the page.
 
@@ -149,10 +150,12 @@ ip-192-168-92-222.us-west-2.compute.internal   Ready     <none>    8m9s      v1.
 ```
 
 In addition, the scale up activity should be logged in the Ocean Cluster's log tab:
-<img src="/images/ocean/scale_up_log.png" alt="Scale up log"/>
+
+![Scale up log](/images/ocean/scale_up_log.png)
 
 Clicking on "view details" will open up a window with additional information about the scaling activity:
-<img src="/images/ocean/scale_up_details.png" alt="Scale up details" width="700"/>
+
+![Scale up details](/images/ocean/scale_up_details.png)
 
 In the next slides, we will preview some additional features and benefits of Ocean for EKS.
 

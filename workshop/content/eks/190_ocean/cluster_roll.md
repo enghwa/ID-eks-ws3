@@ -12,12 +12,12 @@ Ocean's Cluster Roll takes into consideration the actual pods currently running 
 
 #### Creating A Cluster Roll
 On the top right corner of your Ocean cluster's console, select “Actions” and then choose  "Cluster Roll”.
-<img src="/images/ocean/actions_cluster_roll.png" alt="Actions - Cluset Roll" />
+![Actions - Cluset Roll](/images/ocean/actions_cluster_roll.png)
 
 In the pop-up window, configure the batch size - a percentage of the cluster’s target capacity (the total amount of nodes in the cluster) to roll at once. This will determine the number of batches in the Roll. You can optionally add a comment, specifying why the Roll was made.
 
-<img src="/images/ocean/cluster_roll_configuration.png" alt="Cluset Roll Configuration" width="500"/>
+![Cluset Roll Configuration](/images/ocean/cluster_roll_configuration.png)
 
 Finally, from the "Cluster Rolls" tab of the Ocean console you can monitor the progress of the Cluster Roll you have created, stop it, or view any previous Rolls.
 
-<img src="/images/ocean/cluster_roll_tab.png" alt="Cluster Rolls Tab" width="700"/>
+![Cluster Rolls Tab](/images/ocean/cluster_roll_tab.png)

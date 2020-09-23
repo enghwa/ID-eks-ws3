@@ -15,10 +15,10 @@ Found under Cost Analysis tab of the Ocean Console, the data can be aggregated i
  - Namespace/Resource Label: This  option shows a spend breakdown of namespaces or K8s resrources that have been given a specific label key. 
  - Namespace/Resource Annotaion: Similar to Label filtering, Ocean can aggregate cost analysis for namespaces and resources that have been annotated with a particular key.
 
-<img src="/images/ocean/showback.png" alt="Showback" width="700"/>
+![Showback](/images/ocean/showback.png)
 
 In addition to the aggregation options described above, if you wish to only look at a subset of your cluster, either based on labels or annotations, you can create a custom filter via the "Add Filter" button. For example, if you wish to view only the costs incurred by your K8s application manager, Helm, select the relevant type (label/annotation), the key, an operator (e.g. equals, exists, etc.) and the desired key value. 
 
-<img src="/images/ocean/showback_filter.png" alt="Showback Filter" width="700"/>
+![Showback Filter](/images/ocean/showback_filter.png)
 
 

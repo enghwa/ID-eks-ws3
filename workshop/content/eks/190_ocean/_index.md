@@ -26,6 +26,6 @@ Throughout this module we will be working with the Console UI, and use of the AW
 {{% /notice %}}
 
 
-<img src="/images/ocean/ocean_overview.png" alt="Ocean Overview" width="700"/>
+![Ocean Overview](/images/ocean/ocean_overview.png)
 
 

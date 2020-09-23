@@ -60,6 +60,9 @@ Add this to your deployment file under spec.template.spec
 
 {{%attachments title="Related files" pattern=".yml"/%}}
 
+[**deployment-solution.yml**](https://raw.githubusercontent.com/enghwa/ID-eks-ws3/master/workshop/content/eks/150_spotworkers/preferspot.files/deployment-solution.yml)
+
+
 #### Redeploy the Frontend on Spot
 
 First let's take a look at all pods deployed on Spot instances
