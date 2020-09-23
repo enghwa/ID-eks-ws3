@@ -39,7 +39,7 @@ Now, you will link your AWS account in order to enable the Spot.io platform to m
 <!-- <img src="/images/ocean/choose_cloud_provider.png" alt="Choose AWS Cloud Provider"/> -->
 ![Choose AWS Cloud Provider](/images/ocean/choose_cloud_provider.png) 
 
- {{% notice tip %}}
+{{% notice note %}}
 Prior to connecting your AWS account, you can access a preview of the console, by clicking on “Get a Console Walkthrough“.
  {{% /notice %}}
 
